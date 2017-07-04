@@ -9,7 +9,7 @@ def handle(message):
     if content_type == "text":
         msg=message['text']
         if msg== "/sabino":
-            bot.sendPhoto(chat_id,open("/home/francesco/bot/chat-bot/Telegram/img/sabino.jpg","rb"))
+            bot.sendPhoto(chat_id,open("/chat-bot/Telegram/img/sabino.jpg","rb"))
         elif msg== "/chat":
             img_path="/home/francesco/bot/chat-bot/Telegram/img/chat/"
             img_name=random.choice(os.listdir(img_path))
