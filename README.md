@@ -1,2 +1,4 @@
 # chat-bot
-private telegram bot
+telegram bot
+
+A private funny Telegram bot
