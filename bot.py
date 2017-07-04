@@ -5,7 +5,7 @@ from pprint import pprint
 
 def handle(message):
     content_type, chat_type, chat_id = telepot.glance(message)
-    print content_type, chat_type, chat_id
+    #print content_type, chat_type, chat_id
     if content_type == "text":
         msg=message['text']
         if msg== "/sabino":
